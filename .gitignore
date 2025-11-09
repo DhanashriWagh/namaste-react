@@ -1,0 +1,17 @@
+# Ignore everything
+*
+
+# But keep src and utils folders
+!/src/
+
+# Keep the .gitignore file itself
+!.gitignore
+
+# Ignore node_modules even inside src or utils
+node_modules/
+
+.env
+.DS_Store
+dist/
+build/
+*.log
