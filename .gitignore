@@ -1,8 +1,11 @@
 # Ignore everything
 *
 
-# But keep src and utils folders
+# But keep src folder and its contents
 !/src/
+!/src/**
+!/utils/
+!/utils/**
 
 # Keep the .gitignore file itself
 !.gitignore
